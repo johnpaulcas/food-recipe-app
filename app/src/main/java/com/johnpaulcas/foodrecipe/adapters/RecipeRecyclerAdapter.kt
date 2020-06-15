@@ -30,25 +30,25 @@ class RecipeRecyclerAdapter(
             LOADING_TYPE -> {
                 val view =
                     LayoutInflater.from(parent.context)
-                        .inflate(R.layout.layout_loading_list_item, parent, false)
+                        .inflate(R.layout.loading_list_item, parent, false)
                 return RecipeViewHolder(view, onRecipeListener)
             }
             EXHAUSTED_TYPE -> {
                 val view =
                     LayoutInflater.from(parent.context)
-                        .inflate(R.layout.layout_search_exhausted, parent, false)
+                        .inflate(R.layout.search_exhausted_item, parent, false)
                 return RecipeViewHolder(view, onRecipeListener)
             }
             CATEGORY_TYPE -> {
                 val view =
                     LayoutInflater.from(parent.context)
-                        .inflate(R.layout.layout_category_item, parent, false)
+                        .inflate(R.layout.category_item, parent, false)
                 return CategoryViewHolder(view, onRecipeListener)
             }
             else -> {
                 val view =
                     LayoutInflater.from(parent.context)
-                        .inflate(R.layout.layout_recipe_item, parent, false)
+                        .inflate(R.layout.recipe_item, parent, false)
                 return RecipeViewHolder(view, onRecipeListener)
             }
         }

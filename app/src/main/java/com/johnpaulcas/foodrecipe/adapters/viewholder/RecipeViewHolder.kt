@@ -7,7 +7,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.johnpaulcas.foodrecipe.R
 import com.johnpaulcas.foodrecipe.adapters.OnRecipeListener
 import com.johnpaulcas.foodrecipe.models.Recipe
-import kotlinx.android.synthetic.main.layout_recipe_item.view.*
+import kotlinx.android.synthetic.main.recipe_item.view.*
 
 /**
  * Created by johnpaulcas on 13/06/2020.
