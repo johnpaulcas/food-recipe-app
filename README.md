@@ -1,7 +1,5 @@
 # Food Recipe App
 
-![App ScreenShot](https://github.com/johnpaulcas/food-recipe-app/blob/master/ScreenShots/appView.png)
-
 
 ### This app showcase and used the following libraries 
 - Communicating with a webservice (rest api) using Retrofit2
@@ -22,7 +20,4 @@
 - Passing data between activities using intent extras
 - Coroutines
 - Network Security Config for HTTP (API 28+)
-
-### Architec Diagram
-![MVVP](https://github.com/johnpaulcas/food-recipe-app/blob/master/ScreenShots/mvvpArchitecture.png)
 
